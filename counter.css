@@ -1,0 +1,45 @@
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    background-color: palegoldenrod;
+}
+
+div{
+    height: 600px;
+    width: 400px;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    border: 3px solid black;
+    border-radius: 10px;
+    margin: auto;
+}
+h1{
+    font-size: 30px;
+    color: black;
+    position: relative;
+    margin: auto;
+}
+
+h2{
+    font-size: 70px;
+    color: green;
+    margin: auto;
+}
+
+button{
+    color: white;
+    background-color: darkblue;
+    border-radius: 10px;
+    width: 200px;
+    margin: auto;
+}
+
+#lower{
+    margin-top: auto;
+}
+
+#higher{
+    margin-top: -40px;
+}
